@@ -12,7 +12,7 @@ Calcium transients from calcium imaging can have variable amplitudes. In one neu
 
 Check out our preprint for more details: **preprint**.
 
-This analysis is an based on spike inference with CASCADE, which is described in this **[paper](https://www.nature.com/articles/s41593-021-00895-5)** and is documented on [this GitHub repository](https://github.com/HelmchenLabSoftware/Cascade).
+This analysis is an based on spike inference with CASCADE, which is described in this **[paper](https://www.nature.com/articles/s41593-021-00895-5)** and is documented on [this GitHub repository](https://github.com/HelmchenLabSoftware/Cascade). The analysis was worked out within a Master's thesis by [Xusheng "Felix" Fang](https://github.com/Felix-bangbang).
 
 ### Codebase
 
