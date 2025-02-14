@@ -16,6 +16,17 @@ This analysis is an based on spike inference with CASCADE, which is described in
 
 #### Codebase
 
+The folder `example data` contains a single example recording (taken from the [GCaMP8s ground truth](https://github.com/HelmchenLabSoftware/Cascade/tree/master/Ground_truth/DS32-GCaMP8s-m-V1) dataset). It includes both the raw $\Delta$F/F trace ("calcium") and the spike rates inferred with CASCADE ("spike_rates").
+
+The folder `helper scripts` contains all functions to perform quantal analysis. The main function, which contains all other functions as helpers, is `Quantal_analysis_spike_rate.m`.
+
+In the main folder, the `Demo_script.m` applies the quantal analysis to the example data, resulting in a value (`unitary_amplitude`) and the autocalibrated spike rates (`spike_rates_rescaled`) as output. Depending on the visualization parameters, the quantal analysis histogram will be displayed:
+
+
+
+
+
+
 
 
 
