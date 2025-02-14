@@ -30,19 +30,17 @@ This is a proof-of-concept analysis that has not yet been thoroughly tested acro
 
 #### References
 
-If you are using this work, please cite the following references:
+If you are using this work, please consider citing this paper as a [reference for Cascade](https://www.nature.com/articles/s41593-021-00895-5):
 
-> Please cite this as a [reference for Cascade](https://www.nature.com/articles/s41593-021-00895-5):
->
-> Rupprecht P, Carta S, Hoffmann A, Echizen M, Blot A, Kwan AC, Dan Y, Hofer SB, Kitamura K, Helmchen F\*, Friedrich RW\*, *A database and deep learning toolbox for noise-optimized, generalized spike inference from calcium imaging*, Nature Neuroscience (2021).
->
-> Please cite this as a [reference for GCaMP8](https://www.nature.com/articles/s41586-023-05828-9):
->
-> Zhang Y, Rózsa M, Liang Y et al. *Fast and sensitive GCaMP calcium indicators for imaging neural populations*, Nature (2023).
->
-> And please cite this preprint as a reference for the quantal analysis:
->
-> Rupprecht P, Rózsa M, Fang X, Svoboda K, Helmchen F. *Spike inference from calcium imaging data acquired with GCaMP8 indicators*, bioRxiv (2025).
+Rupprecht P, Carta S, Hoffmann A, Echizen M, Blot A, Kwan AC, Dan Y, Hofer SB, Kitamura K, Helmchen F\*, Friedrich RW\*, *A database and deep learning toolbox for noise-optimized, generalized spike inference from calcium imaging*, Nature Neuroscience (2021).
+
+Please cite this as a [reference for GCaMP8](https://www.nature.com/articles/s41586-023-05828-9):
+
+Zhang Y, Rózsa M, Liang Y et al. *Fast and sensitive GCaMP calcium indicators for imaging neural populations*, Nature (2023).
+
+And please cite this preprint as a reference for the quantal analysis:
+
+Rupprecht P, Rózsa M, Fang X, Svoboda K, Helmchen F. *Spike inference from calcium imaging data acquired with GCaMP8 indicators*, bioRxiv (2025).
 
 #### Questions?
 
