@@ -8,7 +8,7 @@ A proof-of-concept algorithm for quantal analysis to perform autocalibration of 
 
 ### Description
 
-Calcium transients from calcium imaging can have variable amplitudes. In one neuron, the transient corresponding to a single action potential (AP) might be 30% \DeltaF/F, in another one it might be 45%. This variability introduces an error into the absolute inferred spike rate. To correct for this error, we apply here "quantal analysis" of the inferred spike rates. We assume that the inferred spike rates will fall into more or less discrete bins. Using a constrained Gaussian mixture model variant to fit this distribution, we extract the unitary amplitude (that is, the \DeltaF/F response towards the minimal, single AP) and use it to normalize the overall extracted spike rates.
+Calcium transients from calcium imaging can have variable amplitudes. In one neuron, the transient corresponding to a single action potential (AP) might be 30% ΔF/F, in another one it might be 45%. This variability introduces an error into the absolute inferred spike rate. To correct for this error, we apply here "quantal analysis" of the inferred spike rates. We assume that the inferred spike rates will fall into more or less discrete bins. Using a constrained Gaussian mixture model variant to fit this distribution, we extract the unitary amplitude (that is, the ΔF/F response towards the minimal, single AP) and use it to normalize the overall extracted spike rates.
 
 Check out our preprint for more details: **preprint**.
 
@@ -16,7 +16,7 @@ This analysis is an based on spike inference with CASCADE, which is described in
 
 ### Codebase
 
-The folder `example data` contains a single example recording (taken from the [GCaMP8s ground truth](https://github.com/HelmchenLabSoftware/Cascade/tree/master/Ground_truth/DS32-GCaMP8s-m-V1) dataset). It includes both the raw $\Delta$F/F trace ("calcium") and the spike rates inferred with CASCADE ("spike_rates").
+The folder `example data` contains a single example recording (taken from the [GCaMP8s ground truth](https://github.com/HelmchenLabSoftware/Cascade/tree/master/Ground_truth/DS32-GCaMP8s-m-V1) dataset). It includes both the raw ΔF/F trace ("calcium") and the spike rates inferred with CASCADE ("spike_rates").
 
 The folder `helper scripts` contains all functions to perform quantal analysis. The main function, which contains all other functions as helpers, is `Quantal_analysis_spike_rate.m`.
 
