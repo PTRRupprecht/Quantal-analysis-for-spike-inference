@@ -12,7 +12,7 @@ Calcium transients from calcium imaging can have variable amplitudes. In one neu
 
 Check out our preprint for more details: **preprint**.
 
-This analysis is an based on spike inference with CASCADE, which is described in this **[paper](https://www.nature.com/articles/s41593-021-00895-5)** and is documented on this GitHub repository.
+This analysis is an based on spike inference with CASCADE, which is described in this **[paper](https://www.nature.com/articles/s41593-021-00895-5)** and is documented on [this GitHub repository](https://github.com/HelmchenLabSoftware/Cascade).
 
 #### Codebase
 
@@ -22,13 +22,11 @@ The folder `helper scripts` contains all functions to perform quantal analysis. 
 
 In the main folder, the `Demo_script.m` applies the quantal analysis to the example data, resulting in a value (`unitary_amplitude`) and the autocalibrated spike rates (`spike_rates_rescaled`) as output. Depending on the visualization parameters, the quantal analysis histogram will be displayed:
 
+<p align="center"><img src="https://github.com/PTRRupprecht/Quantal-analysis-for-spike-inference/blob/main/etc/Example_histogram.png "  width="75%"></p>
 
+#### Application to new data
 
-
-
-
-
-
+This is a proof-of-concept analysis that has not yet been thoroughly tested across many recordings and data types. If you try it out, we are looking forward to hearing from you how it worked and where you see room for improvement.
 
 #### References
 
