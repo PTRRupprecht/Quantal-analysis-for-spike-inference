@@ -44,4 +44,4 @@ And please cite this preprint as a reference for spike inference with GCaMP8 and
 
 ### Questions?
 
-If you have questions, find bugs or want to discuss, please open an issue on GitHub, or get in touch via [e-Mail](mailto:p.t.r.rupprecht+cascade@gmail.com).
+If you have questions, find bugs or want to discuss, please open an [issue on GitHub](https://github.com/PTRRupprecht/Quantal-analysis-for-spike-inference/issues), or get in touch via [e-Mail](mailto:p.t.r.rupprecht+cascade@gmail.com).
