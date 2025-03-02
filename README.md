@@ -40,7 +40,7 @@ Please cite this as a reference for GCaMP8:
 
 And please cite this preprint as a reference for spike inference with GCaMP8 and the quantal analysis:
 
-> Rupprecht P, Rózsa M, Fang X, Svoboda K, Helmchen F. *Spike inference from calcium imaging data acquired with GCaMP8 indicators*, bioRxiv (2025).
+> Rupprecht P, Rózsa M, Fang X, Svoboda K, Helmchen F. *Spike inference from calcium imaging data acquired with GCaMP8 indicators*, (will be updated during the next days!).
 
 ### Questions?
 
