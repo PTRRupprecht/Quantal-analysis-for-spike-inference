@@ -10,7 +10,7 @@ A proof-of-concept algorithm for quantal analysis to perform autocalibration of 
 
 Calcium transients from calcium imaging can have variable amplitudes. In one neuron, the transient corresponding to a single action potential (AP) might be 30% ΔF/F, in another one it might be 45%. This variability introduces an error into the absolute inferred spike rate. To correct for this error, we apply here "quantal analysis" of the inferred spike rates. We assume that the inferred spike rates will fall into more or less discrete bins. Using a constrained Gaussian mixture model variant to fit this distribution, we extract the unitary amplitude (that is, the ΔF/F response towards the minimal, single AP) and use it to normalize the overall extracted spike rates.
 
-Check out our preprint for more details: **preprint**.
+Check out our preprint for more details: **preprint** (will be uploaded within the next couple of days).
 
 This analysis is an based on spike inference with CASCADE, which is described in this **[paper](https://www.nature.com/articles/s41593-021-00895-5)** and is documented on [this GitHub repository](https://github.com/HelmchenLabSoftware/Cascade). The analysis was worked out within a Master's thesis by [Xusheng "Felix" Fang](https://github.com/Felix-bangbang).
 
