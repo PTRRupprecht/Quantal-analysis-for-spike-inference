@@ -10,7 +10,7 @@ A proof-of-concept algorithm for quantal analysis to perform autocalibration of 
 
 Calcium transients from calcium imaging can have variable amplitudes. In one neuron, the transient corresponding to a single action potential (AP) might be 30% ΔF/F, in another one it might be 45%. This variability introduces an error into the absolute inferred spike rate. To correct for this error, we apply here "quantal analysis" of the inferred spike rates. We assume that the inferred spike rates will fall into more or less discrete bins. Using a constrained Gaussian mixture model variant to fit this distribution, we extract the unitary amplitude (that is, the ΔF/F response towards the minimal, single AP) and use it to normalize the overall extracted spike rates.
 
-Check out our preprint for more details: **preprint** (will be uploaded within the next couple of days).
+Check out our preprint for more details: **[preprint](https://www.biorxiv.org/content/10.1101/2025.03.03.641129)**.
 
 This analysis is an based on spike inference with CASCADE, which is described in this **[paper](https://www.nature.com/articles/s41593-021-00895-5)** and is documented on [this GitHub repository](https://github.com/HelmchenLabSoftware/Cascade). The analysis was worked out within a Master's thesis by [Xusheng "Felix" Fang](https://github.com/Felix-bangbang).
 
@@ -32,9 +32,9 @@ This is a proof-of-concept analysis that has not yet been thoroughly tested acro
 
 If you are using this work, please cite this preprint as a reference for spike inference with GCaMP8 and the quantal analysis:
 
-> Rupprecht P, Rózsa M, Fang X, Svoboda K, Helmchen F. *Spike inference from calcium imaging data acquired with GCaMP8 indicators*, (will be updated during the next days!).
+> Rupprecht P, Rózsa M, Fang X, Svoboda K, Helmchen F. *[Spike inference from calcium imaging data acquired with GCaMP8 indicators](https://www.biorxiv.org/content/10.1101/2025.03.03.641129)*, bioRxiv (2025).
 
-Also, please consider citing this paper as original reference for Cascade:
+Also, here's the main reference for CASCADE:
 
 > Rupprecht P, Carta S, Hoffmann A, Echizen M, Blot A, Kwan AC, Dan Y, Hofer SB, Kitamura K, Helmchen F\*, Friedrich RW\*, *[A database and deep learning toolbox for noise-optimized, generalized spike inference from calcium imaging](https://www.nature.com/articles/s41593-021-00895-5)*, Nature Neuroscience (2021).
 
